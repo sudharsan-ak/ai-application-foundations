@@ -1,0 +1,35 @@
+Topic 1 - What an LLM Actually Is
+Phase 1 - LLM as an advanced next-text predictor
+
+At the simplest level, an LLM is a system that takes in text-like input, looks at patterns it learned during training, and predicts what text should come next. It is not a magic brain or a human mind. Its most basic job is just to continue text in a very advanced way based on learned language patterns.
+
+Cleaner version:
+An LLM is an advanced next-text predictor.
+
+Phase 2 - It builds the answer token by token
+
+An LLM does not usually generate the full final answer all at once. Instead, it builds the response step by step in small pieces called tokens. After predicting one token, it adds that to the current text, looks at the updated text again, and predicts the next token. This loop continues until the final response is formed.
+
+Cleaner version:
+An LLM builds its response progressively, one token at a time.
+
+Phase 3 - Why it feels intelligent
+
+An LLM feels intelligent because it has learned a huge number of language patterns, structures, formats, explanation styles, and code patterns from very large amounts of training data. So even though its engine is still next-token prediction, the patterns it has learned are so rich that the output can look smart, useful, and well-structured.
+
+Cleaner version:
+An LLM feels intelligent because it has learned extremely rich language patterns from a huge amount of text.
+
+Phase 4 - Why it can still be wrong
+
+An LLM can still be wrong because its job is to generate the most plausible next text, not to guarantee truth. So if the information is weak, incomplete, missing, outdated, or unverified, it may still produce a fluent answer that sounds correct but is actually false or unsupported. This is why hallucinations happen.
+
+Cleaner version:
+Plausible is not the same as true.
+
+Hallucination - simple definition
+
+A hallucination is when the model generates an answer that sounds believable or valid, but is actually false, unsupported, or invented.
+
+Cleaner version:
+Hallucination = believable output without reliable grounding.
