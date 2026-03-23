@@ -1,23 +1,36 @@
-# AI Applications Foundations
+# AI Application Foundations for Software Engineers
 
-Personal study notes and concept breakdowns covering the foundations of modern AI applications, with a focus on large language models, prompting, system design, and practical product thinking.
+Structured notes and concept breakdowns on the fundamentals of building modern AI applications, written from a software engineering perspective.
 
-## Purpose
+## About This Repository
 
-This repository documents my learning process as I build a stronger foundation in AI application development. The goal is to turn raw notes into a structured reference I can keep expanding over time.
+This repository captures my ongoing work to build a strong foundation in AI application development. It focuses on understanding how large language models work, how AI systems should be designed, and how engineers can reason about reliability, prompting, context, and evaluation.
 
-## Current Contents
+Rather than collecting scattered notes, the goal is to maintain a growing reference that is clear, practical, and useful for real engineering work.
 
-- `Topic 1 - What an LLM actually is.txt`: Notes explaining LLMs as next-token predictors, token-by-token generation, why they appear intelligent, and why hallucinations happen.
+## Current Topic
+
+- `Topic 1 - What an LLM actually is.txt`
+
+This note covers:
+
+- LLMs as advanced next-token predictors
+- Token-by-token response generation
+- Why model output can appear intelligent
+- Why plausible output can still be wrong
+- A simple definition of hallucination
 
 ## Planned Topics
 
-- Prompting fundamentals
-- Context windows and retrieval
-- Hallucinations and grounding
-- AI application architecture
-- Evaluation and iteration
+- Prompt engineering fundamentals
+- Context windows and retrieval-augmented generation
+- Hallucinations, grounding, and reliability
+- AI application architecture patterns
+- Evaluation, iteration, and product thinking
+- Limits, tradeoffs, and practical deployment concerns
 
-## Repository Structure
+## Why This Project Exists
 
-The project currently starts as a notes repository and will grow into a broader collection of AI application foundation material.
+- To document my learning in a structured, public way
+- To build a strong foundation for AI application development
+- To create a repository I can continue expanding with deeper technical notes over time
